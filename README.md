@@ -43,6 +43,7 @@ generate_nfts(
 )
 
 Generated images and metadata will be written to the output/ directory.
+
 This example would generate a run of 100 randomized NFTs with 5 NFTs in the run containing accessories.
 
 
@@ -62,7 +63,7 @@ asset_paths = {
 
 Categories can be added or removed as needed.
 
---
+---
 
 ### Rarity Weights
 
