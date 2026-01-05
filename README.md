@@ -62,7 +62,7 @@ asset_paths = {
 
 Categories can be added or removed as needed.
 
----
+--
 
 ### Rarity Weights
 
@@ -116,6 +116,6 @@ Metadata follows ERC-721 conventions for marketplace compatibility
 Designed for extensibility and reuse across multiple collections
 
 
-### License
+## License
 
 MIT License
