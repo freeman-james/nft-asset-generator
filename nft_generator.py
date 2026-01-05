@@ -87,7 +87,7 @@ def generate_metadata(token_id, attributes, asset_paths_dict):
     metadata = {
         "name": f"Name #{token_id}",
         "description": "Description",
-        "external_url": "https://example.xyz",  # project website
+        "external_url": "https://example.xyz",  # Project website
         "image": f"ipfs://ipfs-url/{token_id}.png",  # IPFS URL for the image will be updated later
         "attributes": attributes,
         "tokenId": token_id,
@@ -185,6 +185,7 @@ def generate_images_from_metadata(metadata_folder='output/metadata'):
             print(f"Generated image for NFT #{token_id} and updated metadata.")
 
 # Example usage
-generate_metadata_for_all_nfts(200)  # Step 1: Generate metadata for 200 NFTs and save to the folder
+generate_metadata_for_all_nfts(200)  # Step 1: Generate metadata for 200 NFTs and save to the output/metadata folder
 generate_images_from_metadata()  # Step 2: Read metadata files and generate images
+
 
