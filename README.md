@@ -121,7 +121,7 @@ Each generated NFT includes:
 
  
 
-### Design Notes
+## Design Notes
 
 Weighted rarity allows precise control over trait distribution
 
