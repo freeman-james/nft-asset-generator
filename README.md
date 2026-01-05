@@ -35,20 +35,24 @@ pip install pillow
 
 ## Usage
 
-This script is intended for offline asset generation prior to contract deployment.
+Use this script to generate NFT assets and metadata before deployment.
 
-Configure asset paths, rarity weights, and layer order in the script, then run:
+1. Configure your layers: set asset paths, rarity weights, and layer order in the script.
+
+2. Generate metadata:
 
 ```bash
-generate_nfts(
-    total_nfts=100,
-    accessories_per_nft=5
-)
+generate_metadata_for_all_nfts(100)  # Creates metadata for 100 NFTs
+```
+Metadata is saved in output/metadata/.
+
+3. Generate images:
+
+```bash
+generate_images_from_metadata()  # Generates images from metadata
 ```
 
-This example generates 100 randomized NFTs, with accessories included in 5 of them.
-
-Generated images and metadata will be written to the output/ directory.
+Images are saved directly in output/.
 
 
 # Configuration
