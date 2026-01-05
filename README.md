@@ -110,7 +110,7 @@ Use this script to generate NFT assets and metadata before deployment.
 ```bash
 generate_metadata_for_all_nfts(100)  # Creates metadata for 100 NFTs
 ```
-Metadata is saved in output/metadata/.
+Metadata is saved in output/metadata/
 
 3. Generate images:
 
@@ -118,17 +118,17 @@ Metadata is saved in output/metadata/.
 generate_images_from_metadata()  # Generates images from metadata
 ```
 
-Images are saved directly in output/.
+Images are saved directly in output/
 
 
 
 ## Design Notes
 
-Weighted rarity allows precise control over trait distribution
+- Weighted rarity allows precise control over trait distribution
 
-Metadata follows ERC-721 conventions for marketplace compatibility
+- Metadata follows ERC-721 conventions for marketplace compatibility
 
-Designed for extensibility and reuse across multiple collections
+- Designed for extensibility and reuse across multiple collections
 
  
 
